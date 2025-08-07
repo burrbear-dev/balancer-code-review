@@ -5423,5 +5423,16 @@
       "factory": "",
       "upgradeableComponents": []
     }
+  },
+  "berachain": {
+    "0xB48ea374a649F9Ab8d2Da4534b5EAE4c48773C98": {
+      "asset": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+      "name": "Dolomite dWBERA Rate Provider",
+      "summary": "safe",
+      "review": "./DolomiteRateProviders.md",
+      "warnings": [],
+      "factory": "0xCd53e666b41A132885302Da63797ac48cA0F8f1d",
+      "upgradeableComponents": []
+    }
   }
 }
