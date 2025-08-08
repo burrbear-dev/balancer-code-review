@@ -1991,7 +1991,17 @@
       "asset": "0x6969696969696969696969696969696969696969",
       "name": "Dolomite WBERA",
       "summary": "safe",
-      "review": "./StatATokenV2Review.md",
+      "review": "./DolomiteErc4626Review.md",
+      "warnings": [],
+      "canUseBufferForSwaps": true,
+      "useUnderlyingForAddRemove": true,
+      "useWrappedForAddRemove": true
+    },
+    "0x474F32Eb1754827C531C16330Db07531e901BcBe": {
+      "asset": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+      "name": "Dolomite NECT",
+      "summary": "safe",
+      "review": "./DolomiteErc4626Review.md",
       "warnings": [],
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": true,

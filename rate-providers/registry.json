@@ -5433,6 +5433,15 @@
       "warnings": [],
       "factory": "0xCd53e666b41A132885302Da63797ac48cA0F8f1d",
       "upgradeableComponents": []
+    },
+    "0xbAa68917c789b3794126150EbBDD42471d342483": {
+      "asset": "0x474F32Eb1754827C531C16330Db07531e901BcBe",
+      "name": "Dolomite dNECT Rate Provider",
+      "summary": "safe",
+      "review": "./DolomiteRateProviders.md",
+      "warnings": [],
+      "factory": "0xCd53e666b41A132885302Da63797ac48cA0F8f1d",
+      "upgradeableComponents": []
     }
   }
 }
