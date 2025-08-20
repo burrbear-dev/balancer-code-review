@@ -1,22 +1,23 @@
 import * as dotenv from 'dotenv'
+import { Address } from 'viem'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { Address } from 'viem'
 
 import {
-    base,
-    mainnet,
     arbitrum,
     avalanche,
-    gnosis,
-    sonic,
-    sepolia,
-    polygon,
-    fraxtal,
+    base,
+    berachain,
     Chain,
-    optimism,
-    polygonZkEvm,
+    fraxtal,
+    gnosis,
+    mainnet,
     mode,
+    optimism,
+    polygon,
+    polygonZkEvm,
+    sepolia,
+    sonic,
 } from 'viem/chains'
 
 import { hyperEvm } from '../src/utils/customChains'
@@ -42,7 +43,18 @@ async function main() {
             alias: 'n',
             type: 'string',
             description: 'The network the rate provider is deployed on',
-            choices: ['base', 'mainnet', 'arbitrum', 'avalanche', 'gnosis', 'fraxtal', 'optimism', 'sonic', 'hyperEvm'],
+            choices: [
+                'base',
+                'mainnet',
+                'arbitrum',
+                'avalanche',
+                'gnosis',
+                'fraxtal',
+                'optimism',
+                'sonic',
+                'hyperEvm',
+                'berachain',
+            ],
             demandOption: true,
         })
         .option('rpcUrl', {
@@ -67,6 +79,7 @@ async function main() {
         polygonZkEvm,
         mode,
         hyperEvm,
+        berachain,
     }
 
     let network = networks[argv.network]

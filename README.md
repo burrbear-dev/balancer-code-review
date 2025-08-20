@@ -144,3 +144,17 @@ Before the review is finalized, the user is expected to:
 - Add context about the rate provider in the generated markdown file.
 - Include audit reports (if available).
 - Optionally rename the review file and update the `name` and `review` fields in the registry.
+
+### `npm run write-erc4626-review`
+
+This script generates a review for a specified erc4626 token. It fetches the necessary data, generates a markdown review file, and updates the registry with the new review information.
+
+#### Usage:
+```sh
+npm run write-erc4626-review -- --erc4626Address <address> --network <network> --rpcUrl <rpcUrl>
+```
+
+#### Example:
+```sh
+npm run write-erc4626-review -- --erc4626Address 0xAa97D791Afc02AF30cf0B046172bb05b3c306517  --network berachain --rpcUrl https://rpc.berachain.com
+```

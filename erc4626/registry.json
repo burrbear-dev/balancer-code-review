@@ -147,7 +147,9 @@
       "name": "Superform USDC",
       "summary": "safe",
       "review": "./SuperformSuperVaultReview.md",
-      "warnings": ["buffer"],
+      "warnings": [
+        "buffer"
+      ],
       "canUseBufferForSwaps": false,
       "useUnderlyingForAddRemove": false,
       "useWrappedForAddRemove": true
@@ -349,7 +351,9 @@
       "name": "Superform USDC",
       "summary": "safe",
       "review": "./SuperformSuperVaultReview.md",
-      "warnings": ["buffer"],
+      "warnings": [
+        "buffer"
+      ],
       "canUseBufferForSwaps": false,
       "useUnderlyingForAddRemove": false,
       "useWrappedForAddRemove": true
@@ -633,7 +637,9 @@
       "name": "sDAI",
       "summary": "safe",
       "review": "./sDaiReview.md",
-      "warnings": ["buffer"],
+      "warnings": [
+        "buffer"
+      ],
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": false,
       "useWrappedForAddRemove": true
@@ -2005,6 +2011,34 @@
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": true,
       "useWrappedForAddRemove": true
+    }
+  },
+  "berachain": {
+    "0xAa97D791Afc02AF30cf0B046172bb05b3c306517": {
+      "asset": "0x6969696969696969696969696969696969696969",
+      "name": "Dolomite:WBERAErc4626Vault.md",
+      "summary": "",
+      "review": "./Dolomite:WBERAErc4626VaultReview6637.md",
+      "warnings": [],
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
+          "implementationReviewed": "0x9e85519c11e78dbeb2882fce16bbb53566f24711"
+        }
+      ]
+    },
+    "0x474F32Eb1754827C531C16330Db07531e901BcBe": {
+      "asset": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+      "name": "Dolomite:NECTErc4626Vault.md",
+      "summary": "",
+      "review": "./Dolomite:NECTErc4626VaultReview72d1.md",
+      "warnings": [],
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x474f32eb1754827c531c16330db07531e901bcbe",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
