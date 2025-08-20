@@ -5918,6 +5918,34 @@
       "warnings": [],
       "factory": "",
       "upgradeableComponents": []
+    },
+    "0xB48ea374a649F9Ab8d2Da4534b5EAE4c48773C98": {
+      "asset": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+      "name": "Dolomite:WBERARateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:WBERARateProviderReviewa731.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0xaa97d791afc02af30cf0b046172bb05b3c306517",
+          "implementationReviewed": "0x9e85519c11e78dbeb2882fce16bbb53566f24711"
+        }
+      ]
+    },
+    "0xbAa68917c789b3794126150EbBDD42471d342483": {
+      "asset": "0x474F32Eb1754827C531C16330Db07531e901BcBe",
+      "name": "Dolomite:NECTRateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:NECTRateProviderReviewd268.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x474f32eb1754827c531c16330db07531e901bcbe",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
