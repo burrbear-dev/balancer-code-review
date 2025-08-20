@@ -5908,5 +5908,16 @@
       "factory": "",
       "upgradeableComponents": []
     }
+  },
+  "berachain": {
+    "0xcE705eBEff877826F1f0D1516e7f74717D5d8ad7": {
+      "asset": "0xcc0966d8418d412c599a6421b760a847eb169a8c",
+      "name": "XSolvBTCRateProvider.md",
+      "summary": "safe",
+      "review": "./XSolvBTCRateProviderReview5330.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": []
+    }
   }
 }

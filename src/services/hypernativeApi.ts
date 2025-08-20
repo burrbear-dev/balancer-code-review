@@ -1,7 +1,7 @@
 import { Chain } from 'viem'
 import { rateProviderRateDeviationRule } from '../utils/hypernative/rate-provider-rate-deviation'
-import { rateProviderUpgradeRule } from '../utils/hypernative/rate-provider-upgrade'
 import { rateProviderRateRevertRule } from '../utils/hypernative/rate-provider-rate-revert'
+import { rateProviderUpgradeRule } from '../utils/hypernative/rate-provider-upgrade'
 
 import { CustomAgentInput, CustomAgentInputUpgrade } from '../types/types'
 
@@ -31,6 +31,7 @@ class HypernativeApi {
         Sepolia: 'sepolia',
         Polygon: 'polygon',
         HyperEVM: 'hyperliquid_evm',
+        Berachain: 'berachain',
     }
 
     public async createCustomAgentRateDeviation(input: CustomAgentInput): Promise<void> {
