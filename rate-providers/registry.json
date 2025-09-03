@@ -5946,6 +5946,20 @@
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
       ]
+    },
+    "0x6c7619E7c4f42E11FcCf58106ECd194D04983382": {
+      "asset": "0x29cF6e8eCeFb8d3c9dd2b727C1b7d1df1a754F6f",
+      "name": "Dolomite:WBTCRateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:WBTCRateProviderReview0bd4.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }

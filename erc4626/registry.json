@@ -2045,6 +2045,19 @@
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": true,
       "useWrappedForAddRemove": true
+    },
+    "0x29cF6e8eCeFb8d3c9dd2b727C1b7d1df1a754F6f": {
+      "asset": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Dolomite:WBTCErc4626Vault.md",
+      "summary": "",
+      "review": "./Dolomite:WBTCErc4626VaultReview2925.md",
+      "warnings": [],
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x29cf6e8ecefb8d3c9dd2b727c1b7d1df1a754f6f",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
