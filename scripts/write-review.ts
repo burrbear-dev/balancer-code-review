@@ -19,7 +19,7 @@ import {
     sepolia,
     sonic,
 } from 'viem/chains'
-import { createCustomAgents } from '../src'
+// import { createCustomAgents } from '../src'
 
 import { hyperEvm } from '../src/utils/customChains'
 import { writeReviewAndUpdateRegistry } from '../src/utils/write-rp-review'
@@ -140,7 +140,7 @@ async function main() {
     await writeReviewAndUpdateRegistry(rateProviderAddress, network, rateProviderAsset, argv.rpcUrl)
 
     // the registry file has been updated. All relevant information can be read from there and don't need to be passed as arguments
-    await createCustomAgents(rateProviderAddress, network)
+    // await createCustomAgents(rateProviderAddress, network)
 }
 
 main().catch((error) => {
