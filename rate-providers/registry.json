@@ -5960,6 +5960,20 @@
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
       ]
+    },
+    "0x91458a3717ce551247c2cac72f6430e722303040": {
+      "asset": "0xB089044EC7DC233736F98B1a410d3B9e559A7932",
+      "name": "Dolomite:SolvBTCRateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:SolvBTCRateProviderReview7cb0.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0xb089044ec7dc233736f98b1a410d3b9e559a7932",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
