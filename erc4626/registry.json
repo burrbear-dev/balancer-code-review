@@ -2061,6 +2061,22 @@
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": true,
       "useWrappedForAddRemove": true
+    },
+    "0xB089044EC7DC233736F98B1a410d3B9e559A7932": {
+      "asset": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+      "name": "Dolomite:SolvBTCErc4626Vault.md",
+      "summary": "safe",
+      "review": "./Dolomite:SolvBTCErc4626VaultReview70a6.md",
+      "warnings": [],
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0xb089044ec7dc233736f98b1a410d3b9e559a7932",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ],
+      "canUseBufferForSwaps": true,
+      "useUnderlyingForAddRemove": true,
+      "useWrappedForAddRemove": true
     }
   }
 }
