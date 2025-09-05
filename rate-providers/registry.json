@@ -6002,6 +6002,20 @@
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
       ]
+    },
+    "0x5c014e459418657f79e27c101d3a481ccda0db2e": {
+      "asset": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
+      "name": "Dolomite:HONEYRateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:HONEYRateProviderReview69b9.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
