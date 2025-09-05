@@ -5988,6 +5988,20 @@
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
       ]
+    },
+    "0x2a97257fb2d24c636ea93791d85d9c3aedb24583": {
+      "asset": "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8",
+      "name": "Dolomite:USD₮0RateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:USD₮0RateProviderReview6bbb.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }

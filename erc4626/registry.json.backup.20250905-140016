@@ -2097,6 +2097,7 @@
     "0xF2d2d55Daf93b0660297eaA10969eBe90ead5CE8": {
       "asset": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
       "name": "Dolomite:USD₮0Erc4626Vault.md",
+      "summary": "",
       "review": "./Dolomite:USD₮0Erc4626VaultReview94a2.md",
       "warnings": [],
       "upgradeableComponents": [
@@ -2104,11 +2105,7 @@
           "entrypoint": "0xf2d2d55daf93b0660297eaa10969ebe90ead5ce8",
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
-      ],
-      "summary": "safe",
-      "canUseBufferForSwaps": true,
-      "useUnderlyingForAddRemove": true,
-      "useWrappedForAddRemove": true
+      ]
     }
   }
 }
