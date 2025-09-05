@@ -5974,6 +5974,20 @@
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
       ]
+    },
+    "0x42a6cc4bd76a6fe768409497e81d159f0cc5bb74": {
+      "asset": "0x444868B6e8079ac2c55eea115250f92C2b2c4D14",
+      "name": "Dolomite:USDC.eRateProvider.md",
+      "summary": "safe",
+      "review": "./Dolomite:USDC.eRateProviderReviewa5b6.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x444868b6e8079ac2c55eea115250f92c2b2c4d14",
+          "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
+        }
+      ]
     }
   }
 }
