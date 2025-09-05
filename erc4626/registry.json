@@ -2081,7 +2081,6 @@
     "0x444868B6e8079ac2c55eea115250f92C2b2c4D14": {
       "asset": "0x549943e04f40284185054145c6E4e9568C1D3241",
       "name": "Dolomite:USDC.eErc4626Vault.md",
-      "summary": "",
       "review": "./Dolomite:USDC.eErc4626VaultReviewecc3.md",
       "warnings": [],
       "upgradeableComponents": [
@@ -2089,7 +2088,11 @@
           "entrypoint": "0x444868b6e8079ac2c55eea115250f92c2b2c4d14",
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
-      ]
+      ],
+      "summary": "safe",
+      "canUseBufferForSwaps": true,
+      "useUnderlyingForAddRemove": true,
+      "useWrappedForAddRemove": true
     }
   }
 }
