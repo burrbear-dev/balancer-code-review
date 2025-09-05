@@ -2113,6 +2113,7 @@
     "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B": {
       "asset": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
       "name": "Dolomite:HONEYErc4626Vault.md",
+      "summary": "",
       "review": "./Dolomite:HONEYErc4626VaultReview7af8.md",
       "warnings": [],
       "upgradeableComponents": [
@@ -2120,11 +2121,7 @@
           "entrypoint": "0x7f2b60fdff1494a0e3e060532c9980d7fad0404b",
           "implementationReviewed": "0xf3fc3c7df2f4fbfc314c8f0dd2eaf96b03950a42"
         }
-      ],
-      "summary": "safe",
-      "canUseBufferForSwaps": true,
-      "useUnderlyingForAddRemove": true,
-      "useWrappedForAddRemove": true
+      ]
     }
   }
 }
