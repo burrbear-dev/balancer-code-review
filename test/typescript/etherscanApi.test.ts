@@ -1,23 +1,9 @@
 import { config } from 'dotenv'
 import EtherscanApi from '../../src/services/etherscanApi'
 
-import {
-    base,
-    mainnet,
-    arbitrum,
-    avalanche,
-    gnosis,
-    sonic,
-    sepolia,
-    polygon,
-    fraxtal,
-    Chain,
-    optimism,
-    polygonZkEvm,
-    mode,
-} from 'viem/chains'
+import { arbitrum, avalanche, base, fraxtal, gnosis, mainnet, optimism, polygon, sepolia, sonic } from 'viem/chains'
 
-import { hyperEvm } from '../../src/utils/customChains'
+import { hyperevm } from '../../src/utils/customChains'
 
 // Check that the viem Chain has a multicall3 contract defined
 describe('test networks', () => {
@@ -33,7 +19,7 @@ describe('test networks', () => {
         polygon,
         fraxtal,
         optimism,
-        hyperEvm,
+        hyperevm,
     ]
 
     config()

@@ -1,29 +1,11 @@
-import path from 'path'
-import * as dotenv from 'dotenv'
 import crypto from 'crypto'
+import path from 'path'
 import { Address } from 'viem'
 
+import { Chain } from 'viem/chains'
 import RateProviderDataService from '../app'
 import { template } from './template'
-import {
-    base,
-    mainnet,
-    arbitrum,
-    avalanche,
-    gnosis,
-    sonic,
-    sepolia,
-    polygon,
-    fraxtal,
-    Chain,
-    optimism,
-    polygonZkEvm,
-    mode,
-} from 'viem/chains'
 
-import { hyperEvm } from './customChains'
-
-import HypernativeApi from '../services/hypernativeApi'
 import { doOnchainCallGetName } from '../utils'
 
 const fs = require('fs')

@@ -1,7 +1,5 @@
-import { Address, parseEventLogs } from 'viem'
+import { Abi, Address, Chain, createPublicClient, encodeFunctionData, Hex, http, parseEventLogs } from 'viem'
 import { CreateAccessListReturnType } from 'viem/_types/actions/public/createAccessList'
-import { createPublicClient, encodeFunctionData, http } from 'viem'
-import { Chain, Hex, Abi } from 'viem'
 import EtherscanApi from './services/etherscanApi'
 import { rateProviderAbi } from './utils/abi/rateProvider'
 
@@ -76,10 +74,19 @@ class RateProviderDataService {
             transport: http(this.chain.rpcUrls.default.http[0]),
         })
 
-        return await publicClient.createAccessList({
-            data: callData,
-            to: this.rateProvider,
-        })
+        try {
+            const res = await publicClient.createAccessList({
+                data: callData,
+                to: this.rateProvider,
+            })
+            return res
+        } catch (error) {
+            console.error('Problem creating access list:', error)
+            return {
+                accessList: [],
+                gasUsed: 0n,
+            }
+        }
     }
 
     /**

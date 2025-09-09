@@ -1,5 +1,5 @@
 import HypernativeApi from 'services/hypernativeApi'
-import { hyperEvm } from 'utils/customChains'
+import { hyperevm } from 'utils/customChains'
 import { Address } from 'viem'
 
 /**
@@ -8,7 +8,7 @@ import { Address } from 'viem'
  */
 const rateProvider = '' as Address
 const upgradeableComponents: Address[] = []
-const chain = hyperEvm
+const chain = hyperevm
 
 async function addHypernativeAgents(rateProvider: Address, upgradeableComponents: Address[]) {
     const hypernativeApi = new HypernativeApi(

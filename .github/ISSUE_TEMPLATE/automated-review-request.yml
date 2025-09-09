@@ -30,7 +30,7 @@ body:
         - fraxtal
         - optimism
         - sonic
-        - hyperEvm
+        - hyperevm
     validations:
       required: true
   - type: input

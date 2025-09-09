@@ -1,19 +1,19 @@
 import { Address, Chain } from 'viem'
 import {
-    base,
-    mainnet,
     arbitrum,
     avalanche,
-    gnosis,
-    sonic,
-    sepolia,
-    polygon,
+    base,
     fraxtal,
-    optimism,
-    polygonZkEvm,
+    gnosis,
+    mainnet,
     mode,
+    optimism,
+    polygon,
+    polygonZkEvm,
+    sepolia,
+    sonic,
 } from 'viem/chains'
-import { hyperEvm } from './customChains'
+import { hyperevm } from './customChains'
 
 // Mapping of chain names to registry keys
 export const chainNameToRegistryKey: { [key: string]: string } = {
@@ -39,7 +39,7 @@ export function validateAndPrepareNetwork(networkName: string, rpcUrl: string): 
         polygon,
         polygonZkEvm,
         mode,
-        hyperEvm,
+        hyperevm,
     }
 
     let network = networks[networkName]

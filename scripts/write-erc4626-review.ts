@@ -20,7 +20,7 @@ import {
     sonic,
 } from 'viem/chains'
 
-import { hyperEvm } from '../src/utils/customChains'
+import { hyperevm } from '../src/utils/customChains'
 import { writeReviewAndUpdateRegistry } from '../src/utils/write-erc4626-review'
 
 dotenv.config()
@@ -52,7 +52,7 @@ async function main() {
                 'fraxtal',
                 'optimism',
                 'sonic',
-                'hyperEvm',
+                'hyperevm',
                 'berachain',
             ],
             demandOption: true,
@@ -78,7 +78,7 @@ async function main() {
         polygon,
         polygonZkEvm,
         mode,
-        hyperEvm,
+        hyperevm,
         berachain,
     }
 
