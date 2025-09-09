@@ -2031,7 +2031,7 @@
     "0xb422fE22eC642382597b8A2579086a8c49b65b52": {
       "asset": "0x02c6a2fA58cC01A18B8D9E00eA48d65E4dF26c70",
       "name": "StaticfeUSDHypurrErc4626Vault.md",
-      "review": "./StaticfeUSDHypurrErc4626VaultReview5111.md",
+      "review": "./StaticfeUSDHypurrErc4626VaultReview5f54.md",
       "warnings": [],
       "upgradeableComponents": [
         {
