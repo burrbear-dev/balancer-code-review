@@ -1,24 +1,24 @@
+import { createCustomAgents } from 'utils'
 import { writeReviewAndUpdateRegistry as writeERC4626ReviewAndUpdateRegistry } from '../src/utils/write-erc4626-review'
 import { writeReviewAndUpdateRegistry } from '../src/utils/write-rp-review'
-import { createCustomAgents } from 'utils'
 
+import { Hex } from 'viem'
 import {
-    base,
-    mainnet,
     arbitrum,
     avalanche,
-    gnosis,
-    sonic,
-    sepolia,
-    polygon,
-    fraxtal,
+    base,
     Chain,
-    optimism,
-    polygonZkEvm,
+    fraxtal,
+    gnosis,
+    mainnet,
     mode,
+    optimism,
+    polygon,
+    polygonZkEvm,
+    sepolia,
+    sonic,
 } from 'viem/chains'
-import { hyperEvm } from '../src/utils/customChains'
-import { Hex } from 'viem'
+import { hyperevm } from '../src/utils/customChains'
 
 /* 
 The additional_contract_information can contain the below strings
@@ -73,7 +73,7 @@ async function processIssue(issueJson: string) {
         polygon,
         polygonZkEvm,
         mode,
-        hyperEvm,
+        hyperevm,
     }
     let network = networks[issueData.network]
 

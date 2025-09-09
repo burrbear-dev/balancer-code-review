@@ -21,7 +21,7 @@ import {
 } from 'viem/chains'
 // import { createCustomAgents } from '../src'
 
-import { hyperEvm } from '../src/utils/customChains'
+import { hyperevm } from '../src/utils/customChains'
 import { writeReviewAndUpdateRegistry } from '../src/utils/write-rp-review'
 
 dotenv.config()
@@ -54,7 +54,7 @@ async function main() {
                 'fraxtal',
                 'optimism',
                 'sonic',
-                'hyperEvm',
+                'hyperevm',
                 'berachain',
             ],
             demandOption: true,
@@ -86,7 +86,7 @@ async function main() {
         polygon,
         polygonZkEvm,
         mode,
-        hyperEvm,
+        hyperevm,
         berachain,
     }
 

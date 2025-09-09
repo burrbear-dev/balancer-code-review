@@ -1,6 +1,6 @@
 import { defineChain } from 'viem'
 
-export const hyperEvm = /*#__PURE__*/ defineChain({
+export const hyperevm = /*#__PURE__*/ defineChain({
     id: 999,
     name: 'HyperEVM',
     nativeCurrency: {

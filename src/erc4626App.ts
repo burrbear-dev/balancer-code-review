@@ -1,9 +1,6 @@
-import { Chain } from 'viem'
-import { Address, parseEventLogs } from 'viem'
+import { Address, Chain, createPublicClient, encodeFunctionData, erc20Abi, http } from 'viem'
 import { CreateAccessListReturnType } from 'viem/_types/actions/public/createAccessList'
-import { createPublicClient, encodeFunctionData, http } from 'viem'
 import { erc4626Abi } from './utils/abi/erc4626'
-import { erc20Abi } from 'viem'
 
 import RateProviderDataService from './app'
 // previewRedeem, previewWithdraw (in _unwrapWithBuffer)
@@ -48,10 +45,19 @@ export default class ERC4626DataService extends RateProviderDataService {
         })
 
         // Step 4: Create the access list
-        return await publicClient.createAccessList({
-            data: callData,
-            to: this.rateProvider,
-        })
+        try {
+            const res = await publicClient.createAccessList({
+                data: callData,
+                to: this.rateProvider,
+            })
+            return res
+        } catch (error) {
+            console.error('Problem creating access list:', error)
+            return {
+                accessList: [],
+                gasUsed: 0n,
+            }
+        }
     }
 
     public async getTenderlySimulation(): Promise<string> {
