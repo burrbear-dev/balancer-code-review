@@ -5925,6 +5925,15 @@
       "warnings": [],
       "factory": "",
       "upgradeableComponents": []
+    },
+    "0x2c899f29879d968f511d6e372062dbd53d40ac0e": {
+      "asset": "0x5b640b5307b09D25E91188326920cd7b4dA32a06",
+      "name": "StaticUSDeHypurrRateProvider.md",
+      "summary": "safe",
+      "review": "./StaticUSDeHypurrRateProviderReview74e8.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": []
     }
   },
   "berachain": {
