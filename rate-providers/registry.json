@@ -5944,6 +5944,15 @@
       "factory": "",
       "upgradeableComponents": []
     },
+    "0x43caaaf2da7807fe7dc0f2e9d9d834c3036f45cc": {
+      "asset": "0x3Df418bE6Dad3f824d00A7c516DAd3Ea2A5a79C6",
+      "name": "StaticWHYPEHypurrRateProvider.md",
+      "summary": "safe",
+      "review": "./StaticWHYPEHypurrRateProviderReview9294.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": []
+    },
     "0xe14ee7deec2ccded9702a14e263cf8a25107ba0a": {
       "asset": "0x6a94B839f4DAD429aB98a395e9793463258916eB",
       "name": "StaticUSDHLHypurrRateProvider.md",
