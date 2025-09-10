@@ -5943,6 +5943,15 @@
       "warnings": [],
       "factory": "",
       "upgradeableComponents": []
+    },
+    "0x43caaaf2da7807fe7dc0f2e9d9d834c3036f45cc": {
+      "asset": "0x3Df418bE6Dad3f824d00A7c516DAd3Ea2A5a79C6",
+      "name": "StaticWHYPEHypurrRateProvider.md",
+      "summary": "safe",
+      "review": "./StaticWHYPEHypurrRateProviderReview9294.md",
+      "warnings": [],
+      "factory": "",
+      "upgradeableComponents": []
     }
   },
   "berachain": {
