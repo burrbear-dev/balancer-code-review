@@ -2075,6 +2075,22 @@
       "canUseBufferForSwaps": true,
       "useUnderlyingForAddRemove": true,
       "useWrappedForAddRemove": true
+    },
+    "0x6a94B839f4DAD429aB98a395e9793463258916eB": {
+      "asset": "0xb50A96253aBDF803D85efcDce07Ad8becBc52BD5",
+      "name": "StaticUSDHLHypurrErc4626Vault.md",
+      "review": "./StaticUSDHLHypurrErc4626VaultReview39f0.md",
+      "warnings": [],
+      "upgradeableComponents": [
+        {
+          "entrypoint": "0x6a94B839f4DAD429aB98a395e9793463258916eB",
+          "implementationReviewed": "0x9889684ac7b2c2219fc086d46e232b4f0a7f34a8"
+        }
+      ],
+      "summary": "safe",
+      "canUseBufferForSwaps": true,
+      "useUnderlyingForAddRemove": true,
+      "useWrappedForAddRemove": true
     }
   },
   "berachain": {
